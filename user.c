@@ -40,7 +40,7 @@ int main()
         } else {
             strcpy(oled_buf, "CLEAR");
         }
-oled_display(buf);
+        oled_display(buf);
        // write(fd_oled, oled_buf, strlen(oled_buf));
        char * msg="hi";
        //oled_display(msg);
